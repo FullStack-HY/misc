@@ -75,5 +75,10 @@
     "code": "H35.29",
     "name": "Other proliferative retinopathy",
     "latin": "Alia retinopathia proliferativa"
+  },
+  {
+    "code": "J12.82",
+    "name": "Pneumonia due to coronavirus disease",
+    "latin": "Peripleumonicis ex morbo coronavirus"
   }
 ]
