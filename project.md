@@ -33,6 +33,7 @@ When your application is ready to be graded, [register in open university](https
 In the email you need to specify
 - link to the GitHub repository of the project
 - link to the working hours list
+- total sum of working hours
 - your student number
 
 If you have a private repository, add users mluukkai and jakousa as collaborators.
