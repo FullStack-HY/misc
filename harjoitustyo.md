@@ -18,8 +18,6 @@ Full Stack -kurssin Telegram-kanava https://t.me/fullstackcourse toimii myös ha
 
 Jos käytät harjoitustyössä kurssilta tuttuja tekniikoita, ei aiheen hyväksymistä tarvita. Jos käytät jotain muita tekniikoita, varmista, että aihe sopii lähettämällä emailia osoitteeseen matti.luukkainen@helsinki.fi
 
-Jos et ole Helsingin yliopiston tutkinto-opiskelija, ilmoittaudu kurssille [täällä](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=136101119) viimeistään siinä vaiheessa kun palautat työn. HY:n opinto-oikeuden omaavien ei tarvitse ilmoittautua kurssille.
-
 ## Vaatimukset palautettavalle työlle
 
 GitHub-repositoriosi README.md-tiedostossa tulee olla linkki osoitteeseen, missä sovellus on käynnissä. Expolla toteutetun React Native mobiilisovelluksen kohdalla repositoriossa tulee olla [julkinen linkki](https://docs.expo.io/versions/latest/workflow/publishing/#how-to-publish), jonka kautta sovelluksen voi käynnistää Expon mobiilisovelluksessa. Muissa tapauksissa sovitaan sovelluksen demoamisesta tapauskohtaisesti.
@@ -34,6 +32,16 @@ Ilman työaikakirjanpitoa kurssin maksimiopintopistemäärä on 1 op.
 
 ## Työn valmistuminen ja arvostelu
 
-Kun työsi on valmis arvosteltavaksi, lähetä email osoitteeseen matti.luukkainen@helsinki.fi
+Kun työsi on valmis arvosteltavaksi, [ilmoittaudu avoimen yliopiston kautta](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=136101119) ja lähetä email osoitteeseen matti.luukkainen@helsinki.fi
+
+Kerro emailissa seuraavat:
+- linkki projektin GitHub-repositorioon
+- linkki työaikakirjanpitoon
+- työtuntien kokonaismäärä
+- opiskelijanumero
+
+Jos repositorio on privaattim lisää käyttäjät mluukkai ja jakousa collaboraattoriksi.
+
+Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
 
 Harjoitustyöt tulee palauttaa 14.3.2022 klo 23:59 mennessä.
