@@ -6,7 +6,7 @@ The backend for the application does not have to be in Node. Backend does not ha
 
 Amount of credits is determined by the working hours, where one credit is 17.5 hours. The grading is pass/fail. To get a failing grade the application is not done by yourself or if the hour keeping and GitHub commit history do not match. All the hours put into the project are counted, so even working a backend with something other than Node, counts.
 
-It is also do the project as a pair or a team.
+It is also possible to do the project as a pair or a team.
 
 The telegram channel for the Full Stack Course https://t.me/fullstackcourse works also for this project.
 
