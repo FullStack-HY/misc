@@ -28,11 +28,17 @@ Työaikakirjanpidon ja repositorion commit-historian tulee vastata toisiaan koht
 
 Pari- tai ryhmätöissä jokaisen on pidettävä omaa työaikakirjanpitoa.
 
-Ilman työaikakirjanpitoa kurssin maksimiopintopistemäärä on 1 op.
+Ilman työaikakirjanpitoa työtä ei voi arvostella.
 
 ## Työn valmistuminen ja arvostelu
 
-Kun työsi on valmis arvosteltavaksi, [ilmoittaudu avoimen yliopiston kautta](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=136101119) ja lähetä email osoitteeseen matti.luukkainen@helsinki.fi
+Kun työsi on valmis arvosteltavaksi, ilmoittaudu avoimen yliopiston kautta oikean kokoiseen kurssiin:
+- FS harjoitustyö (5 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-33775b9a-a0ef-406d-b34c-f22aa7ea3eba
+- FS harjoitustyö (7 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-2970b11b-30cc-40eb-bb80-91b750c41858
+- FS harjoitustyö (10 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-193316c1-63fd-4296-87f5-b4c3649e8b02
+
+
+ja lähetä email osoitteeseen matti.luukkainen@helsinki.fi
 
 Kerro emailissa seuraavat:
 - linkki projektin GitHub-repositorioon
