@@ -26,7 +26,12 @@ If working with a pair or a group, everyone keeps their own hours.
 
 ## Finishing the application and grading
 
-When your application is ready to be graded, [register in open university](https://www.avoin.helsinki.fi/palvelut/esittely.aspx?o=136121125) and send an email to matti.luukkainen@helsinki.fi
+When your application is ready to be graded, register in open university to a course instance that corresponds your working hours
+- FS project (5 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-33775b9a-a0ef-406d-b34c-f22aa7ea3eba
+- FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-2970b11b-30cc-40eb-bb80-91b750c41858
+- FS project (10 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-193316c1-63fd-4296-87f5-b4c3649e8b02
+
+and send an email to matti.luukkainen@helsinki.fi
 
 In the email you need to specify
 - link to the GitHub repository of the project
