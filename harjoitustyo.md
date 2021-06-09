@@ -46,7 +46,7 @@ Kerro emailissa seuraavat:
 - työtuntien kokonaismäärä
 - opiskelijanumero
 
-Jos repositorio on privaattim lisää käyttäjät mluukkai ja jakousa collaboraattoriksi.
+Jos repositorio on privaatti, lisää käyttäjät mluukkai ja jakousa collaboraattoriksi.
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
 
