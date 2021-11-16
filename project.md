@@ -39,7 +39,7 @@ In the email you need to specify
 - total sum of working hours
 - your student number
 
-If you have a private repository, add users mluukkai and jakousa as collaborators.
+If you have a private repository, add users mluukkai and kaltsoon as collaborators.
 
 If your work has more than one repository, add links to other repositories to your main repository readme file.
 
