@@ -37,16 +37,13 @@ Kun työsi on valmis arvosteltavaksi, ilmoittaudu avoimen yliopiston kautta oike
 - FS harjoitustyö (7 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-2970b11b-30cc-40eb-bb80-91b750c41858
 - FS harjoitustyö (10 op): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-193316c1-63fd-4296-87f5-b4c3649e8b02
 
+Täytä tämä lomake https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
 
 ja lähetä email osoitteeseen matti.luukkainen@helsinki.fi
 
-Kerro emailissa seuraavat:
-- linkki projektin GitHub-repositorioon
-- linkki työaikakirjanpitoon
-- työtuntien kokonaismäärä
-- opiskelijanumero
+Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 
-Jos repositorio on privaattim lisää käyttäjät mluukkai ja kaltsoon collaboraattoriksi.
+Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collaboraattoriksi.
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
 
