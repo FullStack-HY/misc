@@ -31,13 +31,11 @@ When your application is ready to be graded, register in open university to a co
 - FS project (7 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-2970b11b-30cc-40eb-bb80-91b750c41858
 - FS project (10 credits): https://www.avoin.helsinki.fi/palvelut/esittely.aspx?s=otm-193316c1-63fd-4296-87f5-b4c3649e8b02
 
+Fill this form https://docs.google.com/forms/d/e/1FAIpQLSfJxtLyWugefPSPHynZcZnrsNt4IGqhpr5M7dF5jgZZ6ASqsQ/viewform
+
 and send an email to matti.luukkainen@helsinki.fi
 
-In the email you need to specify
-- link to the GitHub repository of the project
-- link to the working hours list
-- total sum of working hours
-- your student number
+In the email you need to specify your student number and GitHub account
 
 If you have a private repository, add users mluukkai and kaltsoon as collaborators.
 
