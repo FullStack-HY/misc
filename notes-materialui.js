@@ -18,12 +18,12 @@ import { Alert } from '@material-ui/lab'
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link,
-  Redirect,
-  useRouteMatch,
-  useHistory,
+  Navigate,
+  useMatch,
+  useNavigate,
 } from "react-router-dom"
 
 const Home = () => (
@@ -78,12 +78,12 @@ const Users = () => (
 )
 
 const Login = (props) => {
-  const history = useHistory()
+  const navigate = useNavigate();
 
   const onSubmit = (event) => {
     event.preventDefault()
     props.onLogin('mluukkai')
-    history.push('/')
+    navigate('/')
   }
 
   return (
@@ -142,7 +142,7 @@ const App = () => {
     padding: 5
   }
 
-  const match = useRouteMatch('/notes/:id')
+  const match = useMatch('/notes/:id')
   const note = match 
     ? notes.find(note => note.id === Number(match.params.id))
     : null
@@ -175,23 +175,13 @@ const App = () => {
         </Alert>
       )}
 
-      <Switch>
-        <Route path="/notes/:id">
-          <Note note={note} />
-        </Route>
-        <Route path="/notes">
-          <Notes notes={notes} />
-        </Route>
-        <Route path="/users">
-          {user ? <Users /> : <Redirect to="/login" />}
-        </Route>
-        <Route path="/login">
-          <Login onLogin={login} />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/notes/:id" element={<Note note={note} />} />  
+        <Route path="/notes" element={<Notes notes={notes} />} />   
+        <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
+        <Route path="/login" element={<Login onLogin={login} />} />
+        <Route path="/" element={<Home />} />           
+      </Routes>
       <div>
         <br />
         <em>Note app, Department of Computer Science 2021</em>
