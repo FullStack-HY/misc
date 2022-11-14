@@ -47,4 +47,4 @@ Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collabora
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
 
-Harjoitustyöt tulee palauttaa 14.3.2022 klo 23:59 mennessä.
+Harjoitustyöt tulee palauttaa 14.3.2023 klo 23:59 mennessä.
