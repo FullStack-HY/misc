@@ -46,5 +46,3 @@ Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collaboraattoriksi.
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
-
-Harjoitustyöt tulee palauttaa 14.3.2023 klo 23:59 mennessä.
