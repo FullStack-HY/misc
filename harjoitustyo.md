@@ -43,6 +43,6 @@ ja lähetä email osoitteeseen matti.luukkainen@helsinki.fi
 
 Kerro emailissa opiskelijanumerosi sekä GitHub-tunnuksesi
 
-Jos repositorio on privaatti lisää käyttäjät mluukkai ja kaltsoon collaboraattoriksi.
+Jos repositorio on privaatti lisää käyttäjät mluukkai, outisa ja sinikala collaboraattoriksi.
 
 Jos työsi on useassa repositoriossa, laita päärepositorion README:hen linkit muihin repositorioihin.
