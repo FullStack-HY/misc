@@ -11,19 +11,6 @@ import {
   useMatch
 } from "react-router-dom"
 
-import {
-  Container,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableRow,
-  Paper,
-  TextField,
-  Button,
-  Alert
-} from '@mui/material'
-
 const Home = () => (
   <div>
     <h2>TKTL notes app</h2>
@@ -44,23 +31,13 @@ const Note = ({ note }) => {
 const Notes = ({ notes }) => (
   <div>
     <h2>Notes</h2>
-
-    <TableContainer component={Paper}>
-      <Table>
-        <TableBody>
-          {notes.map(note => (
-            <TableRow key={note.id}>
-              <TableCell>
-                <Link to={`/notes/${note.id}`}>{note.content}</Link>
-              </TableCell>
-              <TableCell>
-                {note.name}
-              </TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <ul>
+      {notes.map(note =>
+        <li key={note.id}>
+          <Link to={`/notes/${note.id}`}>{note.content}</Link>
+        </li>
+      )}
+    </ul>
   </div>
 )
 
@@ -89,16 +66,12 @@ const Login = (props) => {
       <h2>login</h2>
       <form onSubmit={onSubmit}>
         <div>
-          <TextField label="username" />
+          username: <input />
         </div>
         <div>
-          <TextField label="password" type='password' />
+          password: <input type='password' />
         </div>
-        <div>
-          <Button variant="contained" color="primary" type="submit">
-            login
-          </Button>
-        </div>
+        <button type="submit">login</button>
       </form>
     </div>
   )
@@ -131,8 +104,12 @@ const App = () => {
 
   const login = (user) => {
     setUser(user)
+    setMessage(`welcome ${user}`)
+    setTimeout(() => {
+      setMessage(null)
+    }, 10000)
   }
-
+  
   const padding = {
     padding: 5
   }
@@ -143,15 +120,10 @@ const App = () => {
     : null
 
   return (
-    <Container>
+    <div>
 
-      <div>
-        {(message &&
-          <Alert severity="success">
-            {message}
-          </Alert>
-        )}
-      </div>
+      <div>{message}</div>
+
       <div>
         <Link style={padding} to="/">home</Link>
         <Link style={padding} to="/notes">notes</Link>
@@ -174,12 +146,9 @@ const App = () => {
         <br />
         <em>Note app, Department of Computer Science 2023</em>
       </div>
-    </Container>
+    </div>
   )
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Router>
-    <App />
-  </Router>
-)
+<Router><App /></Router>)
