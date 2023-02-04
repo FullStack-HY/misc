@@ -6,7 +6,7 @@ const schema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-    minlength: 2
+    minlength: 5
   },
   published: {
     type: Number,
